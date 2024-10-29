@@ -88,7 +88,7 @@ export default function Signup({ role }) {
           
           <div className="form-group">
             <label id="labelSignup" htmlFor="city">Ciudad</label>
-            <input type="city" name="city" id="city" required placeholder="Ciudad" value={formData.idNumber} onChange={handleChange}
+            <input type="city" name="city" id="city" required placeholder="Ciudad" value={formData.city} onChange={handleChange}
             />
           </div>
           <button type="submit" className="submit-button">
