@@ -30,7 +30,7 @@ export default function Signup({ role }) {
     }
 
         try {
-            const response = await fetch('backparcial.vercel.app/user/signup', {
+            const response = await fetch('https://backparcial.vercel.app/user/signup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
